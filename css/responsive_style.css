@@ -1,7 +1,7 @@
 /* large screen */
 @media screen and (max-width: 991px) {
     h1 {
-      font-size: 75px;
+      font-size: 70px;
     }
     h2 {
       font-size: 40px;
@@ -16,8 +16,8 @@
     a {
       font-size: 13px;
     }
-    p {
-      font-size: 10px;
+    p{
+      font-size: 13px;
     }
     .btn-primary {
       font-size: 9px;
@@ -43,13 +43,15 @@
       padding: 0.5rem 1rem;
     }
     .hero-section {
-      background-size: 65%;
+      background-size: 55%;
       background-position: bottom center;
-      margin-block: 1rem;
+      background-position: bottom left;
+      padding: 1rem;
+      /* margin-top: 4rem; */
     }
-    .hero-container {
+    /* .hero-container {
       flex-direction: column-reverse;
-    }
+    } */
     .hero-right {
       padding: 1rem;
     }
@@ -94,9 +96,9 @@
     a {
       font-size: 13px;
     }
-    p {
+    /* p {
       font-size: 14px;
-    }
+    } */
     header {
       box-shadow: none;
     }
@@ -116,7 +118,7 @@
       padding: 0.5rem 1rem;
     }
     .hero-section {
-      background-size: 60%;
+      background-size: 55%;
       background-position: bottom center;
       margin-block: 1rem;
     }
@@ -175,8 +177,9 @@
       font-weight: 600;
     }
     p {
-      font-size: 8px;
+      font-size: 12px;
       font-weight: 400;
+      margin-block:.2rem;
     }
     .btn-primary {
       font-size: 7px;
@@ -188,9 +191,8 @@
       width: 40px;
     }
     .hero-section {
-      background-size: 90%;
+      background-size: 70%;
       background-position: bottom center;
-      margin-block: 1rem;
     }
     .card-container .img-card-container {
       margin-top: 2rem;

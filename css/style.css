@@ -51,7 +51,7 @@ p {
   color: #534c64;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
+  /* line-height: 30px; */
 }
 .btn-primary {
   color: #fff;
@@ -135,6 +135,7 @@ header {
   align-items: center;
 }
 .hero-left {
+  /* align-self: center; */
   width: 50%;
 }
 .hero-right img {
@@ -238,7 +239,7 @@ header {
 /* feature section end */
 /* card-button start */
 .card-btn-container{
-  margin-block: 5rem;
+  margin-block: 3rem;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -252,6 +253,10 @@ header {
   margin-block: 1rem;
   padding:.5rem 1rem ;
   border-radius:4rem ;
+  overflow: hidden;
+}
+.card-btn-img{
+  overflow: hidden;
 }
 .card-btn:hover {
   border: 1px solid var(--btn-pink);
